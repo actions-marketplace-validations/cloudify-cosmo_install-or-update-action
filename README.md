@@ -34,7 +34,7 @@ jobs:
   test_job:
     steps:
       - name: Get Environment Data
-        uses: cloudify-cosmo/install-or-update@v1.2
+        uses: cloudify-cosmo/install-or-update@v1.3
         with:
           environment-name: "my-environment"
           labels: some_label:label_value,yet_another_label:some_value
